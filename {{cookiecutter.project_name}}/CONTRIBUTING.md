@@ -97,7 +97,7 @@ More information on how to contribute or how to contact us: [HSF training home][
 [hsf-training]: https://hepsoftwarefoundation.org/activities/training.html
 [github]: https://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
-[github-join]: https://github.com/join
+[github-join]: https://github.com/signup
 [how-contribute]: https://docs.github.com/en/get-started/quickstart/contributing-to-projects
 [issues]: https://guides.github.com/features/issues/
 [hsf-training-gfis]: https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+label%3A%22good+first+issue%22+org%3Ahsf-training
