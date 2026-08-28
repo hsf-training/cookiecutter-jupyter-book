@@ -94,7 +94,7 @@ your clone of the originating `main` branch.
 More information on how to contribute or how to contact us: [HSF training home][hsf-training]
 
 [hsf-training-issues]: https://github.com/issues?q=user%3Ahsf-training+is%3Aopen
-[hsf-training]: https://hepsoftwarefoundation.org/workinggroups/training.html
+[hsf-training]: https://hepsoftwarefoundation.org/activities/training.html
 [github]: https://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
