@@ -1,0 +1,10 @@
+# Locally generated test output of the cookiecutter
+hsf-training-my-module/
+
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.idea/

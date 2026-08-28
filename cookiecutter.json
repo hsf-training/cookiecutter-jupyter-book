@@ -1,0 +1,10 @@
+{
+  "project_name": "hsf-training-my-module",
+  "title": "Title of the training module",
+  "description": "A short description of what this module teaches",
+  "author": "HSF Training",
+  "url": "https://github.com/hsf-training/{{ cookiecutter.project_name }}",
+  "_copy_without_render": [
+      ".github/workflows/**"
+   ]
+}

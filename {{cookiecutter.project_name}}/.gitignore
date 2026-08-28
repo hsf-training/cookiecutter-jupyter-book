@@ -1,0 +1,13 @@
+_build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+
+# Ignore allcontributors installation
+node_modules/**
+package-lock.json
+package.json
