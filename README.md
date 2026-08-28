@@ -11,7 +11,7 @@ For the legacy Jekyll/carpentries style, see [carpentry-cookiecutter](https://gi
 
 This template is adapted from [executablebooks/cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book)
 by Tomas Beuzen and the [Executable Books](https://executablebooks.org/) community (BSD 3-Clause license, see [LICENSE](LICENSE)),
-tailored to the conventions of [HSF Training](https://hepsoftwarefoundation.org/workinggroups/training.html).
+tailored to the conventions of [HSF Training](https://hepsoftwarefoundation.org/activities/training.html).
 
 ## How to start a new module
 
