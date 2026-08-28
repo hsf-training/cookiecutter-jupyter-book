@@ -4,12 +4,12 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/hsf-training/cookiecutter-jupyter-book/main.svg)](https://results.pre-commit.ci/latest/github/hsf-training/cookiecutter-jupyter-book/main)
 [![Check Markdown links](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/check-links.yaml/badge.svg)](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/check-links.yaml)
 
-This repository holds the template for starting a new [HSF Training module](https://hepsoftwarefoundation.org/training/curriculum.html) as a [Jupyter Book](https://jupyterbook.org/) (see, for example, our [training on Docker and Podman](https://hsf-training.github.io/hsf-training-docker/)).
+This repository holds the template for starting a new [HSF Training module](https://hepsoftwarefoundation.org/training/curriculum.html) as a [Jupyter Book](https://jupyterbook.org/).
 For the legacy Jekyll/carpentries style, see [carpentry-cookiecutter](https://github.com/hsf-training/carpentry-cookiecutter) instead.
 
 ## Credits
 
-This template is adapted from the excellent [executablebooks/cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book)
+This template is adapted from [executablebooks/cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book)
 by Tomas Beuzen and the [Executable Books](https://executablebooks.org/) community (BSD 3-Clause license, see [LICENSE](LICENSE)),
 tailored to the conventions of [HSF Training](https://hepsoftwarefoundation.org/workinggroups/training.html).
 
@@ -68,4 +68,4 @@ on every push to `main`.
 
 > This is so much to take in, I feel entirely overwhelmed and discouraged.
 
-This is entirely normal, if you're new to the technology stack that we're using (Markdown, Jupyter Book, git, GitHub, ...). But don't despair, we're here to help you! Simply [write to us](mailto:hsf-training-wg@googlegroups.com) or [join our weekly meeting](https://indico.cern.ch/category/10294/), or join the [Mattermost educators space](https://mattermost.web.cern.ch/signup_user_complete/?id=t9zkdocffbbozqcdy193myre8y) and we'll help you get unstuck. We can also arrange a short meeting where we share screens and figure out problems.
+This is entirely normal, if you're new to the technology stack that we're using (Markdown, Jupyter Book, git, GitHub, ...). But don't despair, we're here to help you! Simply [write to us](mailto:hsf-training-wg@googlegroups.com) or [join our weekly meeting](https://indico.cern.ch/category/10294/). We can also arrange a short meeting where we share screens and figure out problems.
