@@ -1,32 +1,38 @@
-# === IMPORTANT: CENTRALLY MAINTAINED FILE ===
-# This file was automatically added via the scripts at the maintenance repository.
-# Please do not change it. Rather, update the blueprint in the maintenance repository and propagate
-# the changes from there.
-# IF YOU REALLY WANT TO MAKE REPOSITORY SPECIFIC CHANGES TO THIS FILE, PLEASE REMOVE THIS NOTICE!
-# Tag @klieret for any questions.
-# ======
-
 ci:
   autoupdate_schedule: monthly
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
       - id: check-merge-conflict
       - id: check-symlinks
-      - id: debug-statements
+      - id: check-yaml
       - id: end-of-file-fixer
-        files: ^(book|README.md)
       - id: mixed-line-ending
       - id: trailing-whitespace
-        files: ^(book|README.md)
+      # Only if the repo has Python files:
+      # - id: debug-statements
 
   - repo: https://github.com/codespell-project/codespell
-    rev: "v2.4.1"
+    rev: v2.4.3
     hooks:
       - id: codespell
-        args: ["-I", "codespell.txt"]
-        files: '.*\.md'
+        args: ["-I", "codespell.txt"] # the file must exist, even if empty
+        exclude: \.bib$ # quoted bibliography data
+
+  # Only if the lesson has Python code blocks in Markdown:
+  # - repo: https://github.com/adamchainz/blacken-docs
+  #   rev: 1.20.0
+  #   hooks:
+  #     - id: blacken-docs
+  #       additional_dependencies: [black]
+
+  # Only if notebook outputs should not be committed (not for books that
+  # render stored outputs):
+  # - repo: https://github.com/kynan/nbstripout
+  #   rev: 0.9.1
+  #   hooks:
+  #     - id: nbstripout

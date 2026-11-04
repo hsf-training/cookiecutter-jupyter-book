@@ -1,0 +1,4 @@
+# This module's GitHub Pages site and pre-commit.ci page only exist after the
+# first deploy and after enabling pre-commit.ci. Remove these lines once they do.
+https://hsf-training\.github\.io/{{cookiecutter.project_name}}/
+https://results\.pre-commit\.ci/.*/hsf-training/{{cookiecutter.project_name}}/
