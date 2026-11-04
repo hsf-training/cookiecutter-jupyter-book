@@ -1,0 +1,3 @@
+# URLs with Jinja placeholders in the cookiecutter template directory. They are
+# only valid after rendering, in a generated module.
+%7B%7B

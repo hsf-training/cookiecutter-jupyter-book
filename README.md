@@ -2,7 +2,7 @@
 
 [![tests](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/tests.yml/badge.svg)](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/tests.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/hsf-training/cookiecutter-jupyter-book/main.svg)](https://results.pre-commit.ci/latest/github/hsf-training/cookiecutter-jupyter-book/main)
-[![Check Markdown links](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/check-links.yaml/badge.svg)](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/check-links.yaml)
+[![Check links](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/check-links.yaml/badge.svg)](https://github.com/hsf-training/cookiecutter-jupyter-book/actions/workflows/check-links.yaml)
 
 This repository holds the template for starting a new [HSF Training module](https://hepsoftwarefoundation.org/training/curriculum.html) as a [Jupyter Book](https://jupyterbook.org/).
 For the legacy Jekyll/carpentries style, see [carpentry-cookiecutter](https://github.com/hsf-training/carpentry-cookiecutter) instead.
